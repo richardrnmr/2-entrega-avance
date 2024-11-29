@@ -1,0 +1,86 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Estilos de las tarjetas de productos */
+  .product-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .product-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .product-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos del carrito */
+  #cart-items {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cart-item:last-child {
+    border-bottom: none;
+  }
+  
+  .cart-item button {
+    background-color: #ff0000;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .cart-item button:hover {
+    background-color: #cc0000;
+  }
+  
+  .cart-item .quantity {
+    margin: 0 10px;
+  }
+  

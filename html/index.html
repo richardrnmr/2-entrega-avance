@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Compras</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <h1>Carrito de Compras</h1>
+
+  <!-- Productos como tarjetas -->
+  <div id="products" class="product-list">
+    <div class="product-card">
+      <img src="assets/images/product1.jpg" alt="Producto 1" class="product-image">
+      <h3>Producto 1</h3>
+      <p>Descripción del Producto 1</p>
+      <p>$10.00</p>
+      <button onclick="addToCart({id: 1, name: 'Producto 1', price: 10.00, description: 'Descripción del Producto 1', image: 'assets/images/product1.jpg', quantity: 1})">Agregar al carrito</button>
+    </div>
+    <div class="product-card">
+      <img src="assets/images/product2.jpg" alt="Producto 2" class="product-image">
+      <h3>Producto 2</h3>
+      <p>Descripción del Producto 2</p>
+      <p>$20.00</p>
+      <button onclick="addToCart({id: 2, name: 'Producto 2', price: 20.00, description: 'Descripción del Producto 2', image: 'assets/images/product2.jpg', quantity: 1})">Agregar al carrito</button>
+    </div>
+    <!-- Agrega más productos aquí -->
+  </div>
+
+  <h2>Tu carrito</h2>
+  <div id="cart-items"></div>
+  <p>Total: <span id="cart-total">0.00</span> USD</p>
+
+  <script src="../js/cart.js"></script>
+</body>
+</html>
