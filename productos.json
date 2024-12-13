@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Producto 1",
+    "description": "Descripción del Producto 1",
+    "price": 10,
+    "image": "https://res.cloudinary.com/riqra/image/upload/v1660930895/sellers/tortas-gaby/products/nkuy2ippvoyyyphkvslx.png"
+  },
+  {
+    "id": 2,
+    "name": "Producto 2",
+    "description": "Descripción del Producto 2",
+    "price": 20,
+    "image": "https://res.cloudinary.com/riqra/image/upload/v1708995341/sellers/tortas-gaby/products/b4smwicsswsjj2kihxhm.png"
+  }
+]
